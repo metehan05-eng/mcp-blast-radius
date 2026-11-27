@@ -1,0 +1,38 @@
+{
+  "name": "mcp-blast-radius",
+  "version": "0.1.0",
+  "description": "Polyglot & TypeScript-deep code impact, breaking-change, and risk analysis MCP server",
+  "type": "module",
+  "main": "dist/index.js",
+  "bin": {
+    "mcp-blast-radius": "dist/index.js"
+  },
+  "scripts": {
+    "build": "tsc",
+    "dev": "tsx src/index.ts",
+    "start": "node dist/index.js",
+    "test": "vitest run"
+  },
+  "keywords": [
+    "mcp",
+    "model-context-protocol",
+    "typescript",
+    "static-analysis",
+    "impact-analysis",
+    "breaking-change"
+  ],
+  "license": "MIT",
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.12.1",
+    "tree-sitter-wasms": "^0.1.13",
+    "ts-morph": "^25.0.1",
+    "web-tree-sitter": "^0.22.6",
+    "zod": "^3.24.2"
+  },
+  "devDependencies": {
+    "@types/node": "^22.10.0",
+    "tsx": "^4.19.2",
+    "typescript": "^5.7.2",
+    "vitest": "^3.0.5"
+  }
+}
