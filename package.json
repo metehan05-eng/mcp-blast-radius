@@ -7,6 +7,26 @@
   "bin": {
     "mcp-blast-radius": "dist/index.js"
   },
+  "files": [
+    "dist/",
+    "README.md",
+    "LICENSE"
+  ],
+  "engines": {
+    "node": ">=20.0.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/metehan05-eng/mcp-blast-radius.git"
+  },
+  "bugs": {
+    "url": "https://github.com/metehan05-eng/mcp-blast-radius/issues"
+  },
+  "homepage": "https://github.com/metehan05-eng/mcp-blast-radius#readme",
+  "funding": {
+    "type": "github",
+    "url": "https://github.com/sponsors/metehan05-eng"
+  },
   "scripts": {
     "build": "tsc",
     "dev": "tsx src/index.ts",
